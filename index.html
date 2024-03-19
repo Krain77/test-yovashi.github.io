@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/Ruslan%20Ildarovich/Downloads/Test%20ver%204.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Тест по психологии</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-title">Опросник профессиональных склонностей Л.Йовайши</div>
+			<!--<div class="test-about" onclick=(test_about())>О тестировании</div>    переименовать функцию -->
+		</header>
+
+		<main class="main">
+			<div id="block1">
+				<footer>
+						<div class="fimg">
+							
+						</div>
+				<div class="fcontent">Вашему вниманию предоставляется тест "Определение профессиональных склонностей". 
+					Мы надеемся,что он поможет вам более точно определить ваши таланты, и подскажет какая профессия подойдет 
+					вам лучше всего. Хорошего вам прохождения</div>
+				</footer>
+				<div class="instruction">
+					<div class="instruction-title">Инструкция</div>
+					<div class="instruction-content">
+						Инструкция Вам будет предложено 24 вопроса с тремя вариантами ответов в каждом. Выберите один самый подходящий для Вас вариант ответа в каждом вопросе. Старайтесь отвечать честно, не подстраиваясь под ожидания окружающих Вас людей.
+					</div>
+				</div>
+
+				<div class="question">
+					<div class="q-title" id="qnum">Вопрос №1</div>
+					<div class="q-question" id="id_quest">Мне хотелось бы в своей профессиональной деятельности:</div>
+
+					<div class="choise">
+						<input type="radio" id="ch1" name="inputs">A) <label id="chl1" for="ch1">общаться с самыми разными людьми;</label><br>
+						<input type="radio" id="ch2" name="inputs">Б)
+						<label id="chl2" for="ch2">что-нибудь делать своими руками – мебель, одежду, машины и т.д.;</label><br>
+						<input type="radio" id="ch3" name="inputs">В)
+						<label id="chl3" for="ch3">снимать фильмы, рисовать, писать книги, выступать на сцене и т.д</label>
+					</div>
+
+					<div class="buttons">
+						<button class="but" id="button-back" onclick="(back_question())">Назад</button>
+						<button class="but" id="button-next" onclick="(next_question())">Далее</button>
+					</div>
+				</div>
+			</div>
+
+			<div id="results">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aperiam ipsam corporis sint odio quod neque numquam! Voluptate
+				error quo excepturi distinctio temporibus eligendi deserunt vero voluptas numquam! Corporis, distinctio!<br>
+		
+			</div>
+		</main>
+		<div class="img-cont">
+		<img style="display:none;" id="myImg1" class="myImg" alt="" src="img/1.jpg" >
+		<img style="display:none;" id="myImg2" class="myImg" alt="" src="img/2.jpg" >
+		<img style="display:none;" id="myImg3" class="myImg" alt="" src="img/3.jpg" >
+		<img style="display:none;" id="myImg4" class="myImg" alt="" src="img/4.jpg" >
+		<img style="display:none;" id="myImg5" class="myImg" alt="" src="img/5.png" >
+		<img style="display:none;" id="myImg6" class="myImg" alt="" src="img/6.jpg" >
+		</div>
+		
+
+		<script src="app.js"></script>
+		
+		
+</body></html>
